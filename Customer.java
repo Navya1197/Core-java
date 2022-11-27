@@ -1,11 +1,11 @@
-class Customer1
+class Customer
 {
 public static void main(String a[])
 {
 String userName = "Kavya";
 int    userAge = 41;
 long   userContactNo= 9809809801L;
-boolean userAlive = true;
+Boolean userAlive = True;
 System.out.println("The User's Information are");
 System.out.println("The User's  name is "+ userName);
 System.out.println("The User's age is " + userAge);
