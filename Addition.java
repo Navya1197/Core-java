@@ -1,18 +1,19 @@
 class Addition
 {
-public static void main(String add[])
+public static void main(String nav[])
 {
-
-int total = add (453,675);
-System.out.println(total);
- int total1 = add (546, 876);
- System.out.println(total);
- int tota2 = add(564,897);
- System.out.println(tota2);
-
+add(6,2);
+add(21,3);
+add(20,4);
+add(40,5);
+add(16,4,2);
 }
-public static int add(int number1, int number2)
+public static void add(int number1, int number2)
 {
-return number1+number2;
+System.out.println(number1+number2);
+}
+public static void add(int number1,int number2,int number3)
+{
+System.out.println(number1+number2+number3);
 }
 }
