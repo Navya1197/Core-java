@@ -3,10 +3,17 @@ class Book
 int cost;
 String color;
 String name;
-float length;
-String brand;
-public static void studentPurpose()
+int pages;
+public  Book()
 {
-System.out.println("for students");	
+System.out.println("default constructor");	
 } 
+public Book(int cst, String clr, String nme, int pges)
+{
+System.out.println("parameterized constructor");
+cost = cst;
+color = clr;
+name = nme;
+pages = pges;
+}
 }
