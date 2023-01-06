@@ -1,0 +1,183 @@
+1.public static void main(String args[])
+*public - It is Specify the method visibility
+and it is a access Specifier .in this access specifier four types is there 
+
+public-it is specify the access of the all the class when that time public are used
+
+private - it is specify the access in the class which is defined.
+
+protected -it is specify the specifies the subclass in different package .
+
+default- it is specify the no method declaration.
+
+static - it is part of method.it is keyword
+
+void -it is a return type. it can be used any primitive  datatype and void . it is a keyword.
+
+main -it is a main method. it is predefines main method.
+
+String -it is nonprimitive datatype.
+
+args- it is a variable.
+ 
+ 2.class - class is a blueprint or template of which contains states and behaviour states represents the variables .
+ and behaviour represents method. 
+object- object is a instance of class and copy the multiple classes. 
+it is used in runtime. it is intiated the new keyword in creation of object
+
+3.jvm- java virtual machine 
+it is to enable the computer to run the program .
+it is convert the bytecode to machine code.
+it is platform independent.
+it is inbuilt of jdk and jre.
+it load the bytecode .
+verify the bytecode.
+execute the bytecode.
+it is provide the runtime environment to execute the code.
+
+jre-java runtime environment .
+it is minimum requirement to execute the bytecode.
+it is platform depended.
+it is combination of jvm and class libraries.
+
+
+jdk- java development kit 
+it is software development kit .
+it is platform dependent.
+it is combination jvm and development tools.
+
+4.constructor-
+constructor it is a special types  of method .it has same class name without  any return type .its called constructor.
+public Book()
+{
+System.out.println("default constructor")
+}
+
+2 types of constructor 
+1.default constructor.
+2.parameterized constructor.
+1 default constructor -it is one of the type of constructor .there is no any parameters .is called default constructor.
+ex - public Book()
+     {
+      //method body
+     }
+2 parameterized constructor -it is one of the type of constructor with parameters is there is called parameterized constructor.
+ex -public Book(string name )
+    {
+     //method body
+
+    }
+5.this keyword:
+   it is a keyword .it is reduce the confusion between instance variable and parameters.
+class Book
+{
+ String name;
+ int amount;
+public Book( String name, int amount)
+{
+this.name =name;
+this.amount =amount;
+}
+}
+7. static is the access modifier where the access modifier is intialize.
+   2 types
+1. user defined
+2.predefined.
+user defined: the method is written by user in  java is called user defined.
+
+predefined:the method is written in java already is called predefined .
+
+9.class loading :class loading it is load the class files.perform the operation class load and byte code.
+ class loader :
+it is subsystem of jvm .
+it is load the class files.
+it is verifies the class files by using bytecode.
+
+3.
+public class ReverseProgram {
+
+	public static void main(String args[])
+	{
+	String name ="program";
+	int count =0;
+
+	char ch[]= name.toCharArray();
+	for(int i=0; i=ch.length-1; i>=0; i--)
+	{
+	System.out.println(ch[i]);
+	}
+	}
+	}
+10.
+yes overload the constructor .
+class Book{
+
+public Book(String name)
+{
+System.out.println();
+
+}
+public Book(int amount)
+{
+System.out.println();
+
+}
+
+12.No we are not use the instance variable in static method .
+instance variable are access by the new keyword when the object creation.
+
+11.
+
+public class Array {
+ static int number[] = {12,3,2,45,6,7,6};
+
+public static void main(String args[])
+{
+
+System.out.println(number.length);
+}
+}
+output -7
+
+
+2. public class ReverseNumber {
+
+int num[]= {1,2,3,4};
+{
+for(int i=num.length;i>0; i--)
+{
+
+System.out.println(num[i]);
+}
+
+}
+}
+
+8.
+public static void main(String args[])
+{
+int	num =100;
+	int i;
+	for(i=0; i<100;i++)
+	{
+	if(num*5==0)
+	{
+	System.out.println(i);	
+	}
+	}
+	for(i=0; i<100; i++)
+	{
+		if(num*10==0)
+	{
+	System.out.println(i);	
+	}
+	}
+}
+}
+	
+
+
+
+
+ 
+ 
